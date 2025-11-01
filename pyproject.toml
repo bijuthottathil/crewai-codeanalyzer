@@ -1,0 +1,22 @@
+[project]
+name = "fastapi-crewai-k8s"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=25.9.0",
+    "crewai>=1.3.0",
+    "databricks-sdk>=0.71.0",
+    "fastapi>=0.120.4",
+    "flake8>=7.3.0",
+    "gitpython>=3.1.45",
+    "gradio>=5.23.1",
+    "gunicorn>=23.0.0",
+    "langchain>=1.0.3",
+    "langchain-openai>=1.0.1",
+    "openai>=1.109.1",
+    "pydantic>=2.12.3",
+    "uvicorn>=0.38.0",
+    "websockets>=15.0.1",
+]
